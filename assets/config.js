@@ -20,7 +20,7 @@ let config = {
     },
     {
       "Title": "DESKRIPSI++",
-      "URL": "../../deskripmin.html",
+      "URL": "../../maintenance.html",
       "icon_classes": "fas fa-link",
     },
   ]
