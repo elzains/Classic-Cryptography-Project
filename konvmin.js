@@ -169,7 +169,7 @@ function KonvIntToChar(i) {
     return Result;
 }
 function convert() {
-    const Chipper = (KonvCharToInt(InputanPlain.value) - parseInt(Key.value)) % 26 + parseInt(Penambahan.value);
+    const Chipper = (KonvCharToInt(InputanPlain.value) - parseInt(Key.value)) % 26 - parseInt(Penambahan.value);
     const Rest = KonvIntToChar(Chipper);
     Output.innerHTML = `<h1>${Rest}</h1>`;
     h1.setAttribute("font-size", "30px")
